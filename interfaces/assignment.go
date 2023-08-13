@@ -14,17 +14,17 @@ type square struct {
 	sideLength float64
 }
 
-func main() {
-	tri := triangle{
-		height: 15,
-		base:   17,
-	}
-	squ := square{
-		sideLength: 20,
-	}
-	printArea(tri)
-	printArea(squ)
-}
+//func main() {
+//	tri := triangle{
+//		height: 15,
+//		base:   17,
+//	}
+//	squ := square{
+//		sideLength: 20,
+//	}
+//	printArea(tri)
+//	printArea(squ)
+//}
 
 func (t triangle) getArea() float64 {
 	return 0.5 * t.height * t.base
